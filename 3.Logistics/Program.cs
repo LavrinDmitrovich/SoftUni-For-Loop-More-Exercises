@@ -6,6 +6,7 @@ namespace _3.Logistics
     {
         static void Main(string[] args)
         {
+
             double count = double.Parse(Console.ReadLine());
             
             double bus =0;
@@ -28,6 +29,7 @@ namespace _3.Logistics
             Console.WriteLine($"{bus*100/(bus+track+train):f2}%");
             Console.WriteLine($"{track * 100 / (bus + track + train):f2}%");
             Console.WriteLine($"{train * 100 / (bus + track + train):f2}%");
+
 
         }
     }
